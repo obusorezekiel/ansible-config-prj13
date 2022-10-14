@@ -25,7 +25,6 @@
     a2enmod proxy_http
     a2enmod headers
     a2enmod lbmethod_bytraffic
-  notify: Restart apache2 service
 
 - name: Copy configuration file
   become: yes

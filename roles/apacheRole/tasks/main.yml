@@ -34,7 +34,6 @@
     owner: root
     group: root
     mode: 0664
-  notify: Restart apache2 service
 
 - name: Enable load balancer configuration
   become: yes

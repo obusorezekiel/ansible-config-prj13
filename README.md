@@ -5,12 +5,6 @@ Project 13 builds on what we learnt in project 12  and introduces us to another 
 ### INCLUDE
 Include does similar thing as *Imports* but differs because it is dynamic. Dynamic in the sense that ansible is able pick changes in playbooks added to a master playbook in real time. In import ansible preprocesses everything runs the playbook with the data it has. Changes made while executing the playbook is ignored.
 
-### BEST USE OF INCLUDE
-Include is best suited for feeding environment variables to ansible.
-
-- Note for most part stick with *Import* statement as *Include* can make debugging difficult.
-
-
 ## When condition
 
 Another important feature in this project is the when condition. It was used to decide the nature of load balancer installed in an environment depending on which variables is set to true
